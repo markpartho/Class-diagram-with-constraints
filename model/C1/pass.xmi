@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab1:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:lab1="http://www.example.org/lab1"
+    departmentname="Python"
+    location="5th floor">
+  <employee
+      xsi:type="lab1:Developer"
+      name="Rudra"
+      age="22">
+    <skills>Python</skills>
+  </employee>
+  <employee
+      xsi:type="lab1:ProjectManager"
+      name="John"
+      age="45">
+    <certifications>Vendor Management</certifications>
+  </employee>
+</lab1:Department>

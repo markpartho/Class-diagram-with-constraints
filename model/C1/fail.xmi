@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab1:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:lab1="http://www.example.org/lab1"
+    departmentname="Java"
+    location="4th floor">
+  <employee
+      xsi:type="lab1:Developer"
+      name="Ruud"
+      age="64">
+    <skills>Java</skills>
+  </employee>
+  <employee
+      xsi:type="lab1:ProjectManager"
+      name="Rosa"
+      age="42">
+    <certifications>Vendor Risk Analysis</certifications>
+    <certifications></certifications>
+  </employee>
+</lab1:Department>
